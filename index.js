@@ -1,6 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const verifyWebhook = require('./verify-webhook');
+const dotenv = require('dotenv').config({ path: 'variables.env' });
 
 
 const app = express();
